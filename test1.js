@@ -1,2 +1,2 @@
 console.log("test");
-alert(1);
+alert(123);
