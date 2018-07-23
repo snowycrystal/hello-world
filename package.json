@@ -1,0 +1,22 @@
+{
+  "name": "snowycrystal-test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "test1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowycrystal/hello-world.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "snowycrystal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snowycrystal/hello-world/issues"
+  },
+  "homepage": "https://github.com/snowycrystal/hello-world#readme"
+}
