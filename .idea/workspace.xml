@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ede6495c-0e04-4fc4-a054-b7796dbe38da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.js" beforeDir="false" afterPath="$PROJECT_DIR$/test1.js" afterDir="false" />
-    </list>
+    <list default="true" id="ede6495c-0e04-4fc4-a054-b7796dbe38da" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -30,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -115,7 +112,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="19" />
     <option name="y" value="25" />
     <option name="width" value="1346" />
@@ -198,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1532069747501</updated>
       <workItem from="1532069748776" duration="1080000" />
-      <workItem from="1532070873862" duration="13912000" />
+      <workItem from="1532070873862" duration="14512000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1532071217380</created>
@@ -239,7 +236,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14992000" />
+    <option name="totallyTimeSpent" value="15592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -251,8 +248,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="25" width="1346" height="688" extended-state="0" />
-    <editor active="true" />
+    <frame x="19" y="25" width="1346" height="688" extended-state="1" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49923548" weight="0.3291367" />
       <window_info anchor="bottom" id="Messages" />
@@ -323,7 +319,7 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
