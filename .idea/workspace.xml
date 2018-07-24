@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ede6495c-0e04-4fc4-a054-b7796dbe38da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ede6495c-0e04-4fc4-a054-b7796dbe38da" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -114,9 +112,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="19" />
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="395" />
+    <option name="y" value="48" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -180,8 +178,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.test1.js" />
         <item itemvalue="npm.test" />
+        <item itemvalue="Node.js.test1.js" />
         <item itemvalue="Node.js.test1.js" />
       </list>
     </recent_temporary>
@@ -197,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1532069747501</updated>
       <workItem from="1532069748776" duration="1080000" />
-      <workItem from="1532070873862" duration="17680000" />
+      <workItem from="1532070873862" duration="18621000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1532071217380</created>
@@ -238,7 +236,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18760000" />
+    <option name="totallyTimeSpent" value="19701000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -250,17 +248,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="25" width="1346" height="688" extended-state="1" />
-    <editor active="true" />
+    <frame x="395" y="48" width="1346" height="688" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49923548" weight="0.3291367" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.39449543" side_tool="true" visible="true" weight="0.26879698" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6055046" visible="true" weight="0.26879698" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.35932723" weight="0.2781955" />
-      <window_info id="npm" sideWeight="0.5012854" side_tool="true" visible="true" weight="0.1704893" />
+      <window_info id="npm" sideWeight="0.50385606" side_tool="true" visible="true" weight="0.1704893" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49923548" weight="0.3291367" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49871466" visible="true" weight="0.1704893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49614397" visible="true" weight="0.1704893" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
