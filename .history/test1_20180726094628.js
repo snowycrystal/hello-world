@@ -1,11 +1,15 @@
 console.log("test"); 
 var fs=require("fs");
-fs.readFile("1.txt",function(er,data){
-	console.log(data.toString());
-});
 var http=require("http");
 http.createServer(function(req,res){
     res.writeHead(200,{"Content-Type":"text/plain"});
+    var stream=fs.createReadStream("1.txt").pipe(res);
+    stream.on("data",function(data){
+        console.log(data);
+    });
+    stream.on("end",function(){
+        console.log("finished");
+    })
     res.end("Hello World\n");
 
 }).listen(3000);

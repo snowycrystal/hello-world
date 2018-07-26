@@ -20,11 +20,7 @@
   },
   "homepage": "https://github.com/snowycrystal/hello-world#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
     "eslint": "^5.2.0",
-    "eslint-plugin-react": "^7.10.0",
-    "mime": "^1.2.7",
-    "socket.io": "^0.9.6"
-  },
-  "dependencies": {}
+    "eslint-plugin-react": "^7.10.0"
+  }
 }
