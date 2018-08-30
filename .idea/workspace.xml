@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ede6495c-0e04-4fc4-a054-b7796dbe38da" name="Default" comment="vsc1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.js" beforeDir="false" afterPath="$PROJECT_DIR$/test1.js" afterDir="false" />
-    </list>
+    <list default="true" id="ede6495c-0e04-4fc4-a054-b7796dbe38da" name="Default" comment="vsc1" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -111,7 +106,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="3" />
     <option name="width" value="1346" />
@@ -255,15 +250,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="3" width="1346" height="688" extended-state="1" />
-    <editor active="true" />
+    <frame x="-1" y="3" width="1346" height="688" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4895288" visible="true" weight="0.16972478" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49923548" weight="0.3291367" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.39602447" side_tool="true" visible="true" weight="0.26819924" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.35932723" weight="0.2781955" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.60397553" visible="true" weight="0.26819924" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.60397553" weight="0.26819924" />
       <window_info id="npm" order="2" sideWeight="0.5104712" side_tool="true" visible="true" weight="0.16972478" />
       <window_info id="Structure" order="1" sideWeight="0.5084388" side_tool="true" weight="0.16517857" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49847096" weight="0.3275862" />
@@ -339,17 +333,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>

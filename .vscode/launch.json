@@ -4,11 +4,18 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "node",
             "request": "launch",
-            "name": "启动程序",
-            "program": "${workspaceFolder}\\test1.js"
+            "name": "test2",
+            "program": "${workspaceFolder}/test2.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "test1",
+            "program": "${workspaceFolder}\\src\\test1.js"
         }
     ]
 }

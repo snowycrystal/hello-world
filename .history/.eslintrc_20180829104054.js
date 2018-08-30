@@ -26,11 +26,11 @@ module.exports = {
             "windows"
         ],
         "quotes": [
-            1,
+            "error",
             "double"
         ],
         "semi": [
-            1,
+            "error",
             "always"
         ],
         "no-console":[

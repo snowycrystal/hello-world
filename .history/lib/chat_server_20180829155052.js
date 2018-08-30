@@ -4,9 +4,9 @@ var guestNumber={};
 var nickNames={};
 var namesUsed=[];
 var currentRoom={};
-exports.listen=function(server){
+exports.linsten=function(server){
     io=socketio.listen(server);
-    io.set("log level",1);
+    io.serveClient("log level",1);
     io.sockets.on("connection",function(socket){
         guestNumber=assign1(socket,guestNumber,nickNames,namesUsed);
         //handle
@@ -15,14 +15,3 @@ exports.listen=function(server){
         });
     });
 };
-
-function assign1(socket,guestNumber,nickNames,namesUsed){
-    var name="Guest"+guestNumber;
-    nickNames[socket.id]=name;
-    socket.emit("nameResult",{
-        success:true,
-        name:name
-    });
-    namesUsed.push(name);
-    return guestNumber+1;
-}

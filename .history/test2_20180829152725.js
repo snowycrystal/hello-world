@@ -4,7 +4,7 @@ var path=require("path");
 var mime=require("mime");
 var cache={};
 var chatServer=require("./lib/chat_server");
-
+chatServer.listen(server);
 function send404(res){
     res.writeHead(404,{"Content-Type":"text/plain"});
     res.write("Error 404");
@@ -48,5 +48,3 @@ var server=http.createServer(function(req,res){
 server.listen(3000,function(){
     console.log("test2 on 3000");
 })
-
-chatServer.listen(server);

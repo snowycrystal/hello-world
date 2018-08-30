@@ -18,7 +18,7 @@ module.exports = {
     ],
     "rules": {
         "indent": [
-           0,
+            "0",
             "tab"
         ],
         "linebreak-style": [
@@ -26,15 +26,12 @@ module.exports = {
             "windows"
         ],
         "quotes": [
-            1,
+            "error",
             "double"
         ],
         "semi": [
-            1,
+            "error",
             "always"
-        ],
-        "no-console":[
-            0,"always"
         ]
     }
 };

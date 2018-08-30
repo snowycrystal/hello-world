@@ -3,7 +3,6 @@ var fs=require("fs");
 var path=require("path");
 var mime=require("mime");
 var cache={};
-var chatServer=require("./lib/chat_server");
 
 function send404(res){
     res.writeHead(404,{"Content-Type":"text/plain"});
@@ -11,7 +10,7 @@ function send404(res){
     res.end();
 }
 function sendFile(res,filePath,fileContents){
-    res.writeHead(200,{"Content-Type":mime.lookup(path.basename(filePath))});
+    res.writeHead(200,{"Content-Type":mime.lookup(Path2D.basename(filePath))});
     res.end(fileContents);
 }
 function serveStatic(res,cache,absPath){
@@ -48,5 +47,3 @@ var server=http.createServer(function(req,res){
 server.listen(3000,function(){
     console.log("test2 on 3000");
 })
-
-chatServer.listen(server);

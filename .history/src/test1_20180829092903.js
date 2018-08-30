@@ -1,18 +1,16 @@
-
+console.log("test"); 
 var fs=require("fs");
 var http=require("http");
 http.createServer(function(req,res){
     res.writeHead(200,{"Content-Type":"text/plain"});
-    var stream=fs.createReadStream("./1.txt");
-    stream.pipe(res);
+    var stream=fs.createReadStream("1.txt").pipe(res);
     stream.on("data",function(data){
         console.log(data);
     });
     stream.on("end",function(){
         console.log("finished");
-      //  res.end("Hello World\n");
     })
-  //  res.end("Hello World\n");
+    res.end("Hello World\n");
 
 }).listen(3000);
 console.log('server running at localhost:3000');
@@ -44,7 +42,6 @@ console.log(x);
 
 var prom1=new Promise(function(res,rej){
     res("121");
-    rej("err11");
 });
 prom1.then(function(val){
     console.log(val);
